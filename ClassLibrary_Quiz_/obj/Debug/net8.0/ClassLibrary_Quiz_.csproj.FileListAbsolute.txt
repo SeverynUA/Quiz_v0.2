@@ -1,0 +1,14 @@
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\bin\Debug\net8.0\ClassLibrary_Quiz_.deps.json
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\bin\Debug\net8.0\ClassLibrary_Quiz_.dll
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\bin\Debug\net8.0\ClassLibrary_Quiz_.pdb
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\ClassLibrary_Quiz_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\ClassLibrary_Quiz_.AssemblyInfoInputs.cache
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\ClassLibrary_Quiz_.AssemblyInfo.cs
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\ClassLibrary_Quiz_.csproj.CoreCompileInputs.cache
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\ClassLibrary_Quiz_.dll
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\refint\ClassLibrary_Quiz_.dll
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\ClassLibrary_Quiz_.pdb
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\ref\ClassLibrary_Quiz_.dll
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\Interop.WMPLib.dll
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\Interop.MediaPlayer.dll
+C:\Users\coolm\source\repos\Quiz_v0.2\ClassLibrary_Quiz_\obj\Debug\net8.0\ClassLibrary_Quiz_.csproj.ResolveComReference.cache

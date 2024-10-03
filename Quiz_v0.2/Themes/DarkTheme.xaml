@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Темна тема -->
+    <SolidColorBrush x:Key="Background" Color="#0A2740"/>
+    <SolidColorBrush x:Key="ButtonBackground" Color="#353A3A"/>
+    <SolidColorBrush x:Key="ButtonForeground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="TextColor" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="LinkColor" Color="#33BCC2"/>
+    <SolidColorBrush x:Key="ComboBoxBackground" Color="#353A3A"/>
+    <SolidColorBrush x:Key="ComboBoxForeground" Color="#353A3A"/>
+
+    <SolidColorBrush x:Key="TopicButtonBackground" Color="#4682B4"/>
+    <!-- Темно-блакитний для кнопок теми -->
+    <SolidColorBrush x:Key="QuestionButtonBackground" Color="#696969"/>
+    <!-- Темно-сірий для кнопок питань -->
+
+    <SolidColorBrush x:Key="TimerTextColor" Color="OrangeRed"/>
+    <!-- Оранжево-червоний для таймера -->
+    <SolidColorBrush x:Key="QuestionTextColor" Color="White"/>
+    <!-- Білий колір для тексту питання -->
+
+</ResourceDictionary>

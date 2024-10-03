@@ -1,0 +1,36 @@
+﻿<Window x:Class="Quiz_v0._2.Windows.Games.SelectedQuestion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Selected Question" WindowState="Maximized" Height="1080" Width="1920"
+        Background="{DynamicResource Background}"
+    KeyDown="Window_KeyDown">
+    <Grid>
+        <!-- Зображення на фоні, яке займає більшу частину екрану -->
+        <Image x:Name="QuestionImage" 
+               Stretch="UniformToFill" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center" 
+               Opacity="0.9"
+               Margin="40,40,40,40"/>
+
+        <!-- Таймер у верхній частині, жирним -->
+        <TextBlock x:Name="TimerTextBlock" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top" 
+                   Margin="0,40,0,0" 
+                   FontSize="68" 
+                   FontWeight="Bold" 
+                   Foreground="{DynamicResource TimerTextColor}"/>
+        <!-- Прив'язка до кольору таймера -->
+
+        <!-- Текст питання внизу, жирним, з відступом від нижнього краю -->
+        <TextBlock x:Name="QuestionInfoTextBlock" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Bottom" 
+                   Margin="0,0,0,150" 
+                   FontSize="50" 
+                   FontWeight="Bold" 
+                   Foreground="{DynamicResource QuestionTextColor}"/>
+        <!-- Прив'язка до кольору тексту питання -->
+    </Grid>
+</Window>

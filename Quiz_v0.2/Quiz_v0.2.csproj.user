@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+
+	<ItemGroup>
+		<Page Update="Themes/LightTheme.xaml">
+			<SubType>Designer</SubType>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Page>
+		<Page Update="Themes/DarkTheme.xaml">
+			<SubType>Designer</SubType>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Page>
+	</ItemGroup>
+
+	<ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Windows\Games\GameWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Games\SelectedQuestion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Games\Statistics.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\MakeGameField\CreateTemplate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\MakeGameField\InsertQuestion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\SetUp\ChooseTemplate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\SetUp\SetUpQuiz.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\DarkTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\LightTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Games\GameWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Games\SelectedQuestion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Games\Statistics.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\MakeGameField\CreateTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\MakeGameField\InsertQuestion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\SetUp\ChooseTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\SetUp\SetUpQuiz.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <!-- Додайте цей блок для копіювання музичних файлів -->
+  <ItemGroup>
+    <None Update="Source\default\Song\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

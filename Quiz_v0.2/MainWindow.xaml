@@ -1,0 +1,57 @@
+﻿<Window x:Class="Quiz_v0._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz_v0._2"
+        mc:Ignorable="d"
+        Title="Main Menu" Height="500" Width="500" WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource Background}" MaxHeight="500" MaxWidth="500"
+        MinWidth="500" MinHeight="500">
+
+    <Grid Margin="0,0,0,0">
+        <!-- Заголовок -->
+        <TextBlock Text="Quiz Game" HorizontalAlignment="Center" VerticalAlignment="Top"
+                   FontSize="36" FontWeight="Bold" Margin="0,30,0,0"
+                   Foreground="{DynamicResource TextColor}"/>
+
+        <!-- Кнопка "Start New Game" -->
+        <Button x:Name="button_start" Content="Start New Game"
+                HorizontalAlignment="Center" VerticalAlignment="Top"
+                Width="200" Height="50" Margin="0,120,0,0"
+                FontSize="16" FontWeight="Bold"
+                Background="{DynamicResource ButtonBackground}" 
+                Foreground="{DynamicResource ButtonForeground}"
+                Click="button_start_Click" BorderBrush="Transparent"/>
+
+        <!-- Кнопка "Continue" -->
+        <Button x:Name="button_continue" Content="Continue"
+                HorizontalAlignment="Center" VerticalAlignment="Top"
+                Width="200" Height="50" Margin="0,190,0,0"
+                FontSize="16" FontWeight="Bold"
+                Background="{DynamicResource ButtonBackground}" 
+                Foreground="{DynamicResource ButtonForeground}"
+                Click="button_continue_Click" BorderBrush="Transparent"/>
+
+        <!-- Випадаючий список для вибору теми -->
+        <ComboBox x:Name="themeComboBox" HorizontalAlignment="Center" VerticalAlignment="Top"
+                  Width="92" Height="40" Margin="0,260,0,0"
+                  Background="{DynamicResource ComboBoxBackground}" 
+                  Foreground="{DynamicResource ComboBoxForeground}"
+                  SelectionChanged="themeComboBox_SelectionChanged">
+            <ComboBoxItem Content="Light Theme" IsSelected="True"/>
+            <ComboBoxItem Content="Dark Theme"/>
+        </ComboBox>
+
+        <!-- Підписи -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,11,12">
+            <TextBlock Text="Created by: " FontWeight="Bold" FontSize="12" Foreground="{DynamicResource LinkColor}"/>
+            <TextBlock Text="Severyn Smykalo" FontSize="12" Foreground="{DynamicResource TextColor}"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,11,32">
+            <TextBlock Text="Sponsor of project: " FontWeight="Bold" FontSize="12" Foreground="{DynamicResource LinkColor}"/>
+            <TextBlock Text="Nazar Smykalo" FontSize="12" Foreground="{DynamicResource TextColor}"/>
+        </StackPanel>
+    </Grid>
+</Window>

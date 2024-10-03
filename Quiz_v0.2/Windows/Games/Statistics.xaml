@@ -1,0 +1,55 @@
+﻿<Window x:Class="Quiz_v0._2.Windows.Games.Statistics"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz_v0._2.Windows.Games"
+        mc:Ignorable="d"
+        Title="Statistics" Height="450" Width="800"
+        Background="{DynamicResource Background}">
+    <!-- Прив'язка до фону теми -->
+
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10">
+            <!-- Список команд з меншою висотою -->
+            <TextBlock Text="Команди (відсортовані по балам):" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"
+                       Foreground="{DynamicResource TextColor}"/>
+            <!-- Прив'язка до кольору тексту теми -->
+
+            <ListView x:Name="TeamsListView" Height="100" 
+                      Background="{DynamicResource ButtonBackground}"
+                Foreground="{DynamicResource ButtonForeground}">
+                <!-- Прив'язка до кольору тексту -->
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Команда" DisplayMemberBinding="{Binding Name}" Width="200"/>
+                        <GridViewColumn Header="Бали" DisplayMemberBinding="{Binding Point}" Width="100"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <!-- Історія змін балів з можливістю гортання -->
+            <TextBlock Text="Історія гри:" FontWeight="Bold" FontSize="16" Margin="0,20,0,10"
+                       Foreground="{DynamicResource TextColor}"/>
+            <!-- Прив'язка до кольору тексту теми -->
+
+            <!-- ScrollViewer для історії гри -->
+            <ScrollViewer Height="250" VerticalScrollBarVisibility="Auto" 
+                          Background="{DynamicResource ButtonBackground}">
+                <!-- Прив'язка до фону -->
+                <ListView x:Name="HistoryListView" 
+                          Background="{DynamicResource ButtonBackground}"
+                    Foreground="{DynamicResource ButtonForeground}">
+                    <!-- Прив'язка до кольору тексту -->
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Час" DisplayMemberBinding="{Binding Time}" Width="150"/>
+                            <GridViewColumn Header="Команда" DisplayMemberBinding="{Binding TeamName}" Width="200"/>
+                            <GridViewColumn Header="Зміна балів" DisplayMemberBinding="{Binding PointsChange}" Width="100"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Window>
