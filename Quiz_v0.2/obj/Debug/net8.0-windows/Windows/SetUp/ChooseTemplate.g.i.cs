@@ -61,7 +61,7 @@ namespace Quiz_v0._2.Windows.SetUp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Quiz_v0.2;component/windows/setup/choosetemplate.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Quiz_v0.2;V1.0.0.0;component/windows/setup/choosetemplate.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\SetUp\ChooseTemplate.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

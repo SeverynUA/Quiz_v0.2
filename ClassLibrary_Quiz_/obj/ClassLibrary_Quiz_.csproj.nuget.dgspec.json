@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coolm\\source\\repos\\Quiz_v0.2\\ClassLibrary_Quiz_\\ClassLibrary_Quiz_.csproj": {}
+    "C:\\Users\\coolm\\OneDrive\\Документы\\GitHub\\Quiz_v0.2\\ClassLibrary_Quiz_\\ClassLibrary_Quiz_.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coolm\\source\\repos\\Quiz_v0.2\\ClassLibrary_Quiz_\\ClassLibrary_Quiz_.csproj": {
+    "C:\\Users\\coolm\\OneDrive\\Документы\\GitHub\\Quiz_v0.2\\ClassLibrary_Quiz_\\ClassLibrary_Quiz_.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coolm\\source\\repos\\Quiz_v0.2\\ClassLibrary_Quiz_\\ClassLibrary_Quiz_.csproj",
+        "projectUniqueName": "C:\\Users\\coolm\\OneDrive\\Документы\\GitHub\\Quiz_v0.2\\ClassLibrary_Quiz_\\ClassLibrary_Quiz_.csproj",
         "projectName": "ClassLibrary_Quiz_",
-        "projectPath": "C:\\Users\\coolm\\source\\repos\\Quiz_v0.2\\ClassLibrary_Quiz_\\ClassLibrary_Quiz_.csproj",
+        "projectPath": "C:\\Users\\coolm\\OneDrive\\Документы\\GitHub\\Quiz_v0.2\\ClassLibrary_Quiz_\\ClassLibrary_Quiz_.csproj",
         "packagesPath": "C:\\Users\\coolm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coolm\\source\\repos\\Quiz_v0.2\\ClassLibrary_Quiz_\\obj\\",
+        "outputPath": "C:\\Users\\coolm\\OneDrive\\Документы\\GitHub\\Quiz_v0.2\\ClassLibrary_Quiz_\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

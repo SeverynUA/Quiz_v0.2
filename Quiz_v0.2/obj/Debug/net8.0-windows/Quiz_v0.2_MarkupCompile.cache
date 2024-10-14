@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\coolm\source\repos\Quiz_v0.2\Quiz_v0.2\obj\Debug\net8.0-windows\
+C:\Users\coolm\OneDrive\Документы\GitHub\Quiz_v0.2\Quiz_v0.2\obj\Debug\net8.0-windows\
 Quiz_v0._2
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\coolm\source\repos\Quiz_v0.2\Quiz_v0.2\App.xaml
+C:\Users\coolm\OneDrive\Документы\GitHub\Quiz_v0.2\Quiz_v0.2\App.xaml
 10570286144
 
 12-403512337
-2011993960899
+201462582728
 MainWindow.xaml;Themes\DarkTheme.xaml;Themes\LightTheme.xaml;Windows\Games\GameWindow.xaml;Windows\Games\SelectedQuestion.xaml;Windows\Games\Statistics.xaml;Windows\MakeGameField\CreateTemplate.xaml;Windows\MakeGameField\InsertQuestion.xaml;Windows\SetUp\ChooseTemplate.xaml;Windows\SetUp\SetUpQuiz.xaml;
 
 False

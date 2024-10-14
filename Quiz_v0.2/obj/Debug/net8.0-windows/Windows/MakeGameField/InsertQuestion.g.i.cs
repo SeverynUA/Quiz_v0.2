@@ -93,7 +93,7 @@ namespace Quiz_v0._2.Windows.MakeGameField {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Quiz_v0.2;component/windows/makegamefield/insertquestion.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Quiz_v0.2;V1.0.0.0;component/windows/makegamefield/insertquestion.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\MakeGameField\InsertQuestion.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
