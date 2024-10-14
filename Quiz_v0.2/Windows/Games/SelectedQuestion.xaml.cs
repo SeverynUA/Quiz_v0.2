@@ -112,6 +112,7 @@ namespace Quiz_v0._2.Windows.Games
             {
                 WinMusic();
                 IsCorrect = true;
+                _timer.Stop();
                 this.DialogResult = true;
                 this.Close();
             }
@@ -119,6 +120,7 @@ namespace Quiz_v0._2.Windows.Games
             {
                 LoseMusic();
                 IsCorrect = false;
+                _timer.Stop();
                 this.DialogResult = true;
                 this.Close();
             }
@@ -131,6 +133,7 @@ namespace Quiz_v0._2.Windows.Games
             {
                 musicPlayer.StopMusic();
                 IsCorrect = false;
+                _timer.Stop();
                 this.DialogResult = true;
                 this.Close();
             }
